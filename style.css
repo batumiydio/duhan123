@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 200px;
+    padding: 20px;
+}
+
+.k1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200%;
+    max-width: 300px;
+    gap: 50px;
+    margin-right: 50px;
+    transition: transform 0.5s;
+}
+
+.k2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200%;
+    max-width: 300px;
+    gap: 50px;
+    margin-right: 50px;
+    transition: transform 0.5s;
+}
+.k3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200%;
+    max-width: 300px;
+    gap: 50px;
+    margin-right: 50px;
+    transition: transform 0.5s;
+}
+.k4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200%;
+    max-width: 300px;
+    gap: 50px;
+    margin-right: 50px;
+    transition: transform 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.k1 img{
+    width: 150%;
+    object-fit: cover;
+    
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.k2 img{
+    width: 150%;
+    object-fit: cover;
+    
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.k3 img{
+    width: 150%;
+    object-fit: cover;
+    margin-left: 20px;
+    
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.k4 img{
+    width: 150%;
+    object-fit: cover;
+    
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+.k1y {
+    background-color: rgb(177, 160, 138);
+    width: 450px;
+    height: 200px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.k2y {
+    background-color : rgb(221, 173, 167);
+
+    width: 450px;
+    height: 200px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.k3y {
+    background-color: rgb(159, 188, 226);
+    margin-right: 50px;
+    width: 450px;
+    height: 200px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.k4y {
+    background-color: burlywood;
+    width: 450px;
+    height: 200px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.k1:hover, .k2:hover, .k3:hover, .k4:hover{
+
+    transform: translateY(-20s);    
+
+}
